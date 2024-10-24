@@ -8,10 +8,29 @@
 DEEPSEEK_API_KEY=
 
 2.安装tiktoken，openai，python-dotenv,django等库
+
+``
 pip install virtualenv
+``
+
+``
 virtualenv .venv
-配置解释器
+``
+
+然后配置.venv下python解释器
+
+``
 pip install -r requirements.txt
+``
+
+``
+python manage.py migrate
+``
+
+``
+python manage.py runserver
+    ``
+
 
 ## 项目说明
 本人纯大一新生，python初学者现在在学django。因为大学参加的培训ai心理医生项目可能需要对数据进行清洗和标注和目前ai编程似乎挺火，还有目前本人在学django想着能不能积攒一下经验，所以结合了chatgpt4o and o1，cursor，claude3.5耗费两天课余或者课上时间打造，手写代码很少很少。目前做出来的东西功能非常不完善，但是由于课业繁忙和因为做这个东西几天没好好听课了哎哟，只好让chatgpt帮我补一下了。目前用的deepseek-seek的api感觉效果不是很好不知道是不是我提示词有问题（主要体现在没有切分的文本输入的时候）。长文本还没有试。目前这个项目是针对心理咨询对话打造的。有什么好的改进建议可以留言。
@@ -37,7 +56,7 @@ cursor多次对话后基本就会忘掉前面的内容，还有中间因为老�
 下一阶段准备多api化和在prompt上做优化以供多场景和需求下使用
 
 ### 项目收获
-好玩...和累
+好玩...和累人
 
 
 
