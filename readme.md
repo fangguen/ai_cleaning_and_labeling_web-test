@@ -23,10 +23,9 @@ cursor多次对话后基本就会忘掉前面的内容，还有中间因为老�
 
 ### 项目效果图
 
-![image][image.png]
+![image](https://github.com/fangguen/ai_cleaning_and_labeling_web-test/blob/master/chat/20241023205912.png)
 
-![image][image-1.png]
-
+![image](https://github.com/fangguen/ai_cleaning_and_labeling_web-test/blob/master/chat/20241023205959.png)
 
 ### 下一阶段准备在prompt上做优化以供多用途和多api化
 
