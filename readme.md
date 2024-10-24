@@ -2,6 +2,8 @@
 ## 使用
 1.需要在根目录下自行创建.env文件配置deepseek-seek的apikey
 想换其他ai api的也可以自行配置
+
+格式：
 DEEPSEEK_API_KEY=
 
 2.安装tiktoken，openai，python-dotenv,django库
